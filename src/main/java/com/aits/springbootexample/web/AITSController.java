@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AITSController {
 
     @RequestMapping(value = "/application")
-    public String about(){
-        return "application";
-    }
+    public String about(){ return "application"; }
 
     @RequestMapping(value = "/")
     public String index(){
